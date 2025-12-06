@@ -1,5 +1,5 @@
 // Gemini API Configuration
-const GEMINI_API_KEY = 'AIzaSyAGtP4Z_1D74HyReAnBaBKLU3g82yBhuh8';
+const GEMINI_API_KEY = '';
 const GEMINI_API_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent';
 
 // DOM Elements
@@ -201,3 +201,4 @@ function clearChat() {
   `;
   chatWindow.appendChild(initialMessage);
 }
+
